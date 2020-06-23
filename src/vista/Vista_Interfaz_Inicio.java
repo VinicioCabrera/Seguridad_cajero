@@ -105,7 +105,7 @@ public class Vista_Interfaz_Inicio extends javax.swing.JFrame {
     private void btnIngresarKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_btnIngresarKeyPressed
    
         int ascii = evt.getKeyCode();
-        Vista_Verificar_Huella vv=new Vista_Verificar_Huella();
+        CapturarHuella vv=new CapturarHuella();
         int cant=10;
         int tam=txtCedula.getText().length();
       
